@@ -4,7 +4,7 @@ WITH raw_hosts AS (
     SELECT
         *
     FROM
-       AIRBNB.RAW.RAW_HOSTS
+       AIRBNB.raw.raw_hosts
 )
 SELECT
     id AS host_id,

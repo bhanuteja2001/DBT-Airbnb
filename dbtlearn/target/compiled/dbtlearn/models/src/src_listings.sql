@@ -2,7 +2,7 @@ WITH raw_listings AS (
     SELECT
         *
     FROM
-        AIRBNB.RAW.RAW_LISTINGS
+        AIRBNB.raw.raw_listings
 )
 SELECT
     id AS listing_id,
